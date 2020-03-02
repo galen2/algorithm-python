@@ -14,6 +14,13 @@ class Solution:
                         target[i] = 1
                         break
             return target[N]==1
-
 x = Solution().divisorGame(11)
-print(x)
+# print(x)
+
+n = 2
+m = 3
+matrix = [None]*n
+for i in range(n):
+ matrix[i] = [None]*3
+ 
+print(matrix)
