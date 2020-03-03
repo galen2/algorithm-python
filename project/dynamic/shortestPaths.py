@@ -4,7 +4,7 @@
 import sys
 matrix = [[1, 3, 5, 9], [2, 1, 3, 4], [5, 2, 6, 7],[6, 8, 4, 3]]
 n = 4
-# 动态规划实现-- 动态转移表法
+# 动态规划实现-- 状态转移表法
 def minDistDP(matrix,n): 
     #初始化N*N的二位数组
     states = [0]*n
@@ -31,7 +31,7 @@ def minDistDP(matrix,n):
 
 
 
-# 动态规划-动态转移方程法
+# 动态规划-状态转移方程法
 #初始化N*N的二位数组
 mem = [0] * n
 for i in range(n) :
